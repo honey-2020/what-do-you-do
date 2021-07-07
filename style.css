@@ -1,0 +1,39 @@
+.scontrino{
+    width: 384px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* background-color: aquamarine; */
+    color: white;
+}
+h1,h2,p{
+    width: 100%;
+}
+h1{
+    background-color: #141414;
+    border-radius: 10px;
+}
+
+h2{
+    background-color: lightcoral;
+    padding: 5px;
+    border-radius: 10px;
+}
+p, small{
+    background-color: coral;
+    border-radius: 10px;
+}
+p::before{
+    content: '🔖 ';
+}
+small{
+    font-size: 12px;
+    padding: 5px;
+}
+small::before{
+    content: '🦥 ';
+}
+p{
+    
+    font-size: 20px;
+    padding: 5px;
+}
